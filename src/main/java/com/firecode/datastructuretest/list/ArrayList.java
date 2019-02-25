@@ -5,6 +5,7 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
+import java.util.Set;
 
 /**
  * @author JIANG
@@ -127,7 +128,6 @@ public class ArrayList implements List{
 	@Override
 	public void add(int index, Object element) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override

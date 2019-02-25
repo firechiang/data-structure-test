@@ -1,6 +1,7 @@
 package com.firecode.datastructuretest.list;
 
 import java.util.List;
+import java.util.Set;
 
 import org.junit.Test;
 
@@ -26,6 +27,8 @@ public class TestList extends BaseTest{
 		jdkList.add("ccc");
 		System.err.println(list);
 		System.err.println(list.size());
+		//Set<Object> hashSet = new TestHashSet<>();
+		System.err.println("21321321".equals(null));
 	}
 	
 	@Test
