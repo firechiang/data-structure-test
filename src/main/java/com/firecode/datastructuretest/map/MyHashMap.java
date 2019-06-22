@@ -4,6 +4,7 @@ import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
 
+@SuppressWarnings("rawtypes")
 public class MyHashMap implements Map {
 
 	@Override

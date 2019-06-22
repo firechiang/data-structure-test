@@ -8,6 +8,7 @@ import java.util.ListIterator;
 /**
  * @author JIANG
  */
+@SuppressWarnings("rawtypes")
 public class LinkedList implements List {
 	
 	/**
@@ -190,6 +191,7 @@ public class LinkedList implements List {
 	
 	private static class Node {
 		
+		@SuppressWarnings("unused")
 		private Object data;
 		
 		private Node next;

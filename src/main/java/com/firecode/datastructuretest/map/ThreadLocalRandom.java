@@ -52,6 +52,7 @@ import sun.misc.VM;
  * @since 1.7
  * @author Doug Lea
  */
+@SuppressWarnings("restriction")
 public class ThreadLocalRandom extends Random {
     /*
      * This class implements the java.util.Random API (and subclasses
@@ -207,7 +208,7 @@ public class ThreadLocalRandom extends Random {
             throw new UnsupportedOperationException();
     }
 
-    final long nextSeed() {
+	final long nextSeed() {
         Thread t; long r; // read and update per-thread seed
         UNSAFE.putLong(t = Thread.currentThread(), SEED,
                        r = UNSAFE.getLong(t, SEED) + GAMMA);

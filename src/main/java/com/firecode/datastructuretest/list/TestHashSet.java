@@ -8,6 +8,7 @@ import java.util.Set;
  * 使用 HashMap 作为底层存储，以实现去重
  * @author JIANG
  */
+@SuppressWarnings("rawtypes")
 public class TestHashSet implements Set {
 
 	@Override

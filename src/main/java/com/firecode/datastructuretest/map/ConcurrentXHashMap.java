@@ -238,7 +238,7 @@ import java.util.concurrent.CountedCompleter;
  * @param <K> the type of keys maintained by this map
  * @param <V> the type of mapped values
  */
-@SuppressWarnings("restriction")
+@SuppressWarnings({"restriction","unused"})
 public class ConcurrentXHashMap<K,V> extends AbstractMap<K,V>
     implements ConcurrentMap<K,V>, Serializable {
     private static final long serialVersionUID = 7249069246763182397L;
@@ -1616,7 +1616,7 @@ public class ConcurrentXHashMap<K,V> extends AbstractMap<K,V>
      * @throws RuntimeException or Error if the mappingFunction does so,
      *         in which case the mapping is left unestablished
      */
-    public V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction) {
+	public V computeIfAbsent(K key, Function<? super K, ? extends V> mappingFunction) {
         if (key == null || mappingFunction == null)
             throw new NullPointerException();
         int h = spread(key.hashCode());
