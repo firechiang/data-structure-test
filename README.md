@@ -1,4 +1,4 @@
-#### 树型结构深度遍历算法
+#### 树型结构深度优先遍历算法
 ![object](https://github.com/firechiang/data-structure-test/blob/master/image/depth-first-tree.svg)
 #### 基本算法一般具有五个特征
 ```bash
