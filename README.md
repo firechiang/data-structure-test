@@ -1,3 +1,4 @@
+#### [& | ^ << >>等位运算符简要说明][1]
 #### 树型结构深度优先遍历算法
 ![object](https://github.com/firechiang/data-structure-test/blob/master/image/depth-first-tree.svg)
 #### 基本算法一般具有五个特征
@@ -11,3 +12,5 @@
 #### 评价算法的优劣（时间复杂度和空间复杂度）
 执行所需时间，取时间短的；执行所需内存空间，取较小的。
 
+
+[1]: https://github.com/firechiang/data-structure-test/tree/master/docs/bit-operation-desc.md
