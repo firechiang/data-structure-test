@@ -1,4 +1,4 @@
-#### 一、[& | ^ ~ << >>等位运算符简要说明][1]
+#### 一、[& | ^ ~ << >> >>> <<< 等位运算符简要说明][1]
 #### 二、树型结构深度优先遍历算法
 ![object](https://github.com/firechiang/data-structure-test/blob/master/image/depth-first-tree.svg)
 #### 三、基本算法一般具有五个特征
